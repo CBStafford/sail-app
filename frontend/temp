@@ -1,0 +1,99 @@
+
+[
+    {
+    "game":	"",
+    "vScore":	"1",
+    "hScore":"2",
+    "week": "1",
+    "userId":"1" },
+    {	
+    "game":	"2",
+    "vScore":	"3",
+    "hScore":"4",
+    "week": "1" ,
+    "userId":"1"},
+    {	
+    "game":	"3",
+    "vScore":	"5",
+    "hScore":"6",
+    "week": "1" ,
+    "userId":"1"},
+    {	
+    "game":	"4",
+    "vScore":	"7",
+    "hScore":"8",
+    "week": "1",
+    "userId":"1" },
+    {
+    "game":	"5",
+    "vScore":	"9",
+    "hScore":"10",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"6",
+    "vScore":	"11",
+    "hScore":"12",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"7",
+    "vScore":	"13",
+    "hScore":"14",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"8",
+    "vScore":	"15",
+    "hScore":"16",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"9",
+    "vScore":	"17",
+    "hScore":"18",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"10",
+    "vScore":	"19",
+    "hScore":"20",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"11",
+    "vScore":	"21",
+    "hScore":"22",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"12",
+    "vScore":	"23",
+    "hScore":"24",
+    "week": "1",
+    "userId":"1" },
+    {
+    "game":	"13",
+    "vScore":	"25",
+    "hScore":"26",
+    "week": "1",
+    "userId":"1" },
+    {
+    "game":	"14",
+    "vScore":	"27",
+    "hScore":"28",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"15",
+    "vScore":	"29",
+    "hScore":"30",
+    "week": "1" ,
+    "userId":"1"},
+    {
+    "game":	"16",
+    "vScore":	"31",
+    "hScore":"32",
+    "week": "1" ,
+    "userId":"1"}
+]
