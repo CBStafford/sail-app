@@ -53,7 +53,7 @@ services:
             retries: 3
             timeout: 5s
 
-    nextjs:
+    frontend:
         image: node:latest
         volumes:
             - ./frontend:/app
