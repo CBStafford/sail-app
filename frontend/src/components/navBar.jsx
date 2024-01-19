@@ -9,7 +9,7 @@ export default async function NavBar(){
     return(
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-        <strong>Simple Fantasy Football <br /></strong>&nbsp;&nbsp; UR { session ? session.user.name : "not Logged In!"} &nbsp;
+        <strong>Text here <br /></strong>&nbsp;&nbsp; UR { session ? session.user.name : "not Logged In!"} &nbsp;
           <NavLinks  />
         </div>
         </nav>

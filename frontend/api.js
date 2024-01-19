@@ -93,30 +93,3 @@ export async function getProfile(id, acToken){
  
 }
 
-export async function setPicks(data, acToken, userId, week){
-    try{
-        const payload = [{
-            "userId": userId,
-            "week": week, 
-            "data": data.formData
-        }]
-        console.log(payload)
-
-        const res = await fetch('http://localhost:8000/api/v1/set-score', {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization' : `Bearer ${acToken}`
-            },
-            body: JSON.stringify(payload),  
-            next:{ revalidate:0 } //use 0 (zero) to stop cacheing the data.
-        });
-
-        return res;
-    }
-    catch(err){
-        console.log(err)
-        return NextResponse.json(err)
-        // return
-    }
-}
