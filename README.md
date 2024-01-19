@@ -37,6 +37,10 @@ Once up and running, a starter site will be ready for development. It's damn ugl
 
 ${\color{red}!!! \space WARNING \space!!!}$  This is a work in progress. You may encounter some bugs.  DEAL.
 
+For example the Login & Register doesn't because the Laravel API routes isn't coded nor is any of the CRUD code.
+
+You will find that you can't hit the Dashboard. That's because it's a protected page. Once you get the login working you should be redirected to the Dash on a successful login.
+
 I hope you find this helpful.
 
 Love Gronk
