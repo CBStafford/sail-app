@@ -11,10 +11,6 @@ import Button from 'react-bootstrap/Button';
 
 import { getProfile } from "../../../api";
 
-import Profile from "@/components/profiles/listLeagues";
-import PicksTab from "@/components/profiles/tabs";
-
-
 export default function Component() {
   const { data: session, status } = useSession()
   const router = useRouter()
@@ -48,13 +44,7 @@ export default function Component() {
     <div>
         <h2>Dashboard</h2>
         <Container >
-          <Row >
-            <Profile  leagues = {  profileRes } />
-          </Row>
 
-          <Row className="mt-3">
-            <PicksTab  picks={profileRes.scores } officialscores={profileRes.officialscores}  />
-          </Row>
 
         </Container>
 
