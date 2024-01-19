@@ -1,3 +1,45 @@
+## About This Repo
+
+![Image Link](https://github.com/CBStafford/sail-app/blob/main/frontend/public/gronk-ai.png)
+
+This Sail App is intended to be a nice starting point to begin development.
+
+Simple clone this repo and run <font style="color:red;">docker-compose up</font> to begin. 
+
+You will have to edit some files to meet your own needs.  I will list them below.
+
+Setup includes read-to-go:
+- Laravel (pretty statndard.  I used the Laravel Sail's install)
+- React with NextJS
+- Next-Auth (should be ready out of the box, you'll have to test that.)
+- BCrypt
+- Toast
+- React Bootstrap
+- React Form Hooks (for creating forms, DUH, right)
+
+As I mentioned, I based this repo off the Laravel sail install. It comes with a <font style="color:red;">docker-compose</font> file. This file is intended to create docker containers for Laravel as well as the following services:
+- MySQL
+- Redis
+- meilisearch
+- mailpit
+- selenium
+**Note: I added phpMyAdmin & frontend
+
+Simpley uncomment, or commentout, the services you do or do not want before running docker.
+
+You may (should) read thru the <font style="color:red;">.env</font> file and change a few things. 
+
+Once up and running, a starter site will be ready for development. It's damn ugly so I hope you know some CSS. But it will get be a good jumping off point, complete with:
+- Home Page
+- NavBar
+- Login / LogOut / Register
+- Bashboard
+
+***<font style="color:red;">!!! WARNING !!!</font>*** This is a work in progress. You may encounter some bugs.  DEAL.
+
+I hope you find this helpful.
+Love Gronk
+---
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
