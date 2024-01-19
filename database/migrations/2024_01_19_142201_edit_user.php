@@ -14,6 +14,7 @@ return new class extends Migration
         schema::table('users', function (Blueprint $table) {
             $table->boolean('is_admin')->default(false);
             $table->boolean('is_active')->default(true);
+            $table->dropColumn('email_verified_at');
         });
     }
 
