@@ -4,38 +4,38 @@
 
 This Sail App is intended to be a nice starting point to begin development.
 
-Simple clone this repo and run <font style="color:red;">docker-compose up</font> to begin. 
+Simple clone this repo and run ${\color{red}docker-compose}$ ${\color{red}up}$ to begin. 
 
 You will have to edit some files to meet your own needs.  I will list them below.
 
 Setup includes read-to-go:
-- Laravel (pretty statndard.  I used the Laravel Sail's install)
-- React with NextJS
-- Next-Auth (should be ready out of the box, you'll have to test that.)
-- BCrypt
-- Toast
-- React Bootstrap
-- React Form Hooks (for creating forms, DUH, right)
+- ${\color{green}Laravel \space (pretty \space statndard. \space \space  I\space  used \space the \space Laravel\space  Sail's \space install)}$
+- ${\color{green}React \space with \space NextJS }$
+- ${\color{green}Next-Auth \space (should \space be \space ready \space out \space of \space the \space box, \space you'll \space have \space to \space test \space that.) }$
+- ${\color{green}BCrypt }$
+- ${\color{green}Toast }$
+- ${\color{green}React \space Bootstrap }$
+- ${\color{green}React \space Form \space Hooks \space (for \space creating forms, \space DUH, \space right) }$
 
-As I mentioned, I based this repo off the Laravel sail install. It comes with a <font style="color:red;">docker-compose</font> file. This file is intended to create docker containers for Laravel as well as the following services:
-- MySQL
-- Redis
-- meilisearch
-- mailpit
-- selenium
+As I mentioned, I based this repo off the Laravel sail install. It comes with a ${\color{yellow}docker-compose}$ file. This file is intended to create docker containers for Laravel as well as the following services:
+- ${\color{yellow}MySQL }$
+- ${\color{yellow}Redis }$
+- ${\color{yellow}meilisearch }$
+- ${\color{yellow}mailpit }$
+- ${\color{yellow}selenium }$
 **Note: I added phpMyAdmin & frontend
 
 Simpley uncomment, or commentout, the services you do or do not want before running docker.
 
-You may (should) read thru the <font style="color:red;">.env</font> file and change a few things. 
+You may (should) read thru the ${\color{yellow}.env}$  file and change a few things. 
 
 Once up and running, a starter site will be ready for development. It's damn ugly so I hope you know some CSS. But it will get be a good jumping off point, complete with:
-- Home Page
-- NavBar
-- Login / LogOut / Register
-- Bashboard
+- ${\color{yellow}Home \space Page }$
+- ${\color{yellow}NavBar }$
+- ${\color{yellow}Login \space / \space LogOut \space / \space Register }$
+- ${\color{yellow}Bashboard }$
 
-***<font style="color:red;">!!! WARNING !!!</font>*** This is a work in progress. You may encounter some bugs.  DEAL.
+${\color{red}!!! \space WARNING \space!!!}$  This is a work in progress. You may encounter some bugs.  DEAL.
 
 I hope you find this helpful.
 Love Gronk
