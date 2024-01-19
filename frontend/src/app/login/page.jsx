@@ -6,7 +6,7 @@ export default function Login() {
 
     return (
         <div className="half-half page-content">
-            <h1>Login!#!#!#!#</h1>
+            <h1>Login</h1>
             <LoginForm />
         </div>
     )
